@@ -24,8 +24,9 @@ result = {}
 name_index = 0
 while name_index < nds.length do
   director = nds[name_index] #this is the same set of hashes that was iterated over in the
-  result[director[:name]] = gross_for_director(director)                      #first order method so we plug in that method here 
+  result[director[:name]] = gross_for_director(director) #first order method so we plug in that method here
+  name_index += 1
 end
-
+result
 
 end
