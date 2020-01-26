@@ -3,6 +3,7 @@ require 'directors_database'
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
+#always pp to see what kind of data you're working with and what we're aiming to find
 def gross_for_director(director_data)
 total = 0
 
