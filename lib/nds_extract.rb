@@ -8,7 +8,7 @@ total = 0
 
 i = 0
   while i < director_data[:name].length
-  total += director_data[:name][i][:worldwide_gross]ß
+  total += director_data[:name][i][:worldwide_gross]
   i += 1
 
   end
